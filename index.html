@@ -1,0 +1,1668 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>上海厂房出租_工业园区仓库招租_免费对接厂房资源</title>
+    <meta name="description" content="厂房出租.com专注上海工业园区厂房、仓库、独栋厂房出租信息对接，覆盖宝山、嘉定、青浦、松江等区域，可环评、带行车、层高8米，免费为求租企业对接优质厂房资源。">
+    <meta name="keywords" content="上海厂房出租,工业园区厂房,仓库招租,宝山厂房出租,嘉定厂房,青浦厂房,可环评厂房,带行车厂房,独栋厂房出租,小面积厂房">
+    <meta name="author" content="厂房出租.com">
+    <meta name="robots" content="index,follow">
+    <link rel="canonical" href="https://厂房出租.com/">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+            color: #333;
+            line-height: 1.6;
+            background: #f5f7fa;
+        }
+        a { text-decoration: none; color: inherit; }
+        .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+        /* 顶部导航 */
+        .header {
+            background: #fff;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.06);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            height: 64px;
+        }
+        .logo {
+            font-size: 22px;
+            font-weight: 700;
+            color: #1a56db;
+        }
+        .logo span { color: #f59e0b; }
+        .nav { display: flex; gap: 28px; }
+        .nav a {
+            font-size: 15px;
+            color: #555;
+            transition: color 0.2s;
+        }
+        .nav a:hover { color: #1a56db; }
+        .header-phone {
+            font-size: 16px;
+            font-weight: 600;
+            color: #1a56db;
+        }
+
+        /* Hero区域 */
+        .hero {
+            background: linear-gradient(135deg, #1e3a8a 0%, #1a56db 50%, #3b82f6 100%);
+            color: #fff;
+            padding: 60px 0 80px;
+            position: relative;
+            overflow: hidden;
+        }
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            right: -10%;
+            width: 600px;
+            height: 600px;
+            background: radial-gradient(circle, rgba(255,255,255,0.08) 0%, transparent 70%);
+            border-radius: 50%;
+        }
+        .hero-content {
+            display: grid;
+            grid-template-columns: 1fr 420px;
+            gap: 50px;
+            align-items: center;
+            position: relative;
+            z-index: 1;
+        }
+        .hero h1 {
+            font-size: 38px;
+            font-weight: 700;
+            margin-bottom: 16px;
+            line-height: 1.3;
+        }
+        .hero h1 em {
+            font-style: normal;
+            color: #fbbf24;
+        }
+        .hero-subtitle {
+            font-size: 17px;
+            opacity: 0.9;
+            margin-bottom: 28px;
+        }
+        .hero-features {
+            display: flex;
+            gap: 24px;
+            flex-wrap: wrap;
+        }
+        .hero-feature {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 14px;
+            opacity: 0.95;
+        }
+        .hero-feature::before {
+            content: '✓';
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 20px;
+            height: 20px;
+            background: #fbbf24;
+            color: #1e3a8a;
+            border-radius: 50%;
+            font-size: 12px;
+            font-weight: 700;
+        }
+
+        /* 求租表单 */
+        .lead-form {
+            background: #fff;
+            border-radius: 12px;
+            padding: 32px 28px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.2);
+        }
+        .lead-form h3 {
+            font-size: 20px;
+            color: #1a56db;
+            margin-bottom: 6px;
+            text-align: center;
+        }
+        .lead-form p {
+            font-size: 13px;
+            color: #888;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+        .form-group { margin-bottom: 14px; }
+        .form-group label {
+            display: block;
+            font-size: 13px;
+            color: #555;
+            margin-bottom: 6px;
+            font-weight: 500;
+        }
+        .form-group label .required { color: #ef4444; }
+        .form-group input,
+        .form-group select {
+            width: 100%;
+            padding: 10px 12px;
+            border: 1px solid #d1d5db;
+            border-radius: 6px;
+            font-size: 14px;
+            transition: border-color 0.2s;
+            outline: none;
+        }
+        .form-group input:focus,
+        .form-group select:focus {
+            border-color: #1a56db;
+            box-shadow: 0 0 0 3px rgba(26,86,219,0.1);
+        }
+        .form-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 12px;
+        }
+        .submit-btn {
+            width: 100%;
+            padding: 13px;
+            background: linear-gradient(135deg, #f59e0b, #d97706);
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: transform 0.1s, box-shadow 0.2s;
+            margin-top: 6px;
+        }
+        .submit-btn:hover {
+            box-shadow: 0 4px 12px rgba(245,158,11,0.4);
+        }
+        .submit-btn:active { transform: scale(0.98); }
+        .form-note {
+            font-size: 12px;
+            color: #9ca3af;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        /* 热门需求 */
+        .section { padding: 60px 0; }
+        .section-title {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+        .section-title h2 {
+            font-size: 28px;
+            color: #1f2937;
+            margin-bottom: 10px;
+        }
+        .section-title p {
+            font-size: 15px;
+            color: #6b7280;
+        }
+        .demand-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+        }
+        .demand-card {
+            background: #fff;
+            border-radius: 10px;
+            padding: 24px 20px;
+            text-align: center;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s, box-shadow 0.2s;
+            cursor: pointer;
+        }
+        .demand-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+        }
+        .demand-icon {
+            width: 52px;
+            height: 52px;
+            margin: 0 auto 14px;
+            background: linear-gradient(135deg, #dbeafe, #bfdbfe);
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+        }
+        .demand-card h4 {
+            font-size: 16px;
+            color: #1f2937;
+            margin-bottom: 6px;
+        }
+        .demand-card p {
+            font-size: 13px;
+            color: #6b7280;
+        }
+
+        /* 服务流程 */
+        .process-section { background: #fff; }
+        .process-steps {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 30px;
+            position: relative;
+        }
+        .process-step {
+            text-align: center;
+            position: relative;
+        }
+        .step-number {
+            width: 48px;
+            height: 48px;
+            margin: 0 auto 16px;
+            background: linear-gradient(135deg, #1a56db, #3b82f6);
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 20px;
+            font-weight: 700;
+        }
+        .process-step h4 {
+            font-size: 17px;
+            color: #1f2937;
+            margin-bottom: 8px;
+        }
+        .process-step p {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.7;
+        }
+
+        /* 资讯文章 */
+        .article-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+        .pagination {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 8px;
+            margin-top: 36px;
+            flex-wrap: wrap;
+        }
+        .page-btn {
+            min-width: 38px;
+            height: 38px;
+            padding: 0 14px;
+            border: 1px solid #d1d5db;
+            background: #fff;
+            color: #555;
+            border-radius: 6px;
+            font-size: 14px;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+        .page-btn:hover { border-color: #1a56db; color: #1a56db; }
+        .page-btn.active { background: #1a56db; color: #fff; border-color: #1a56db; font-weight: 600; }
+        .page-btn.disabled { opacity: 0.4; cursor: not-allowed; }
+        .page-btn.disabled:hover { border-color: #d1d5db; color: #555; }
+        .page-info { font-size: 13px; color: #6b7280; margin-top: 12px; text-align: center; }
+        a.article-card { display: block; color: inherit; }
+        .article-card {
+            background: #fff;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+            transition: transform 0.2s;
+        }
+        .article-card:hover { transform: translateY(-3px); }
+        .article-img {
+            height: 160px;
+            background: linear-gradient(135deg, #1e3a8a, #3b82f6);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            font-size: 40px;
+        }
+        .article-body { padding: 20px; }
+        .article-tag {
+            display: inline-block;
+            padding: 3px 10px;
+            background: #dbeafe;
+            color: #1a56db;
+            font-size: 12px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+        }
+        .article-card h4 {
+            font-size: 16px;
+            color: #1f2937;
+            margin-bottom: 8px;
+            line-height: 1.5;
+        }
+        .article-card p {
+            font-size: 13px;
+            color: #6b7280;
+            line-height: 1.7;
+        }
+
+        /* 底部CTA */
+        .cta-section {
+            background: linear-gradient(135deg, #1e3a8a, #1a56db);
+            color: #fff;
+            padding: 50px 0;
+            text-align: center;
+        }
+        .cta-section h2 {
+            font-size: 26px;
+            margin-bottom: 12px;
+        }
+        .cta-section p {
+            font-size: 15px;
+            opacity: 0.9;
+            margin-bottom: 24px;
+        }
+        .cta-btn {
+            display: inline-block;
+            padding: 14px 40px;
+            background: #f59e0b;
+            color: #fff;
+            border-radius: 6px;
+            font-size: 16px;
+            font-weight: 600;
+            transition: background 0.2s;
+        }
+        .cta-btn:hover { background: #d97706; }
+
+        /* 页脚 */
+        .footer {
+            background: #1f2937;
+            color: #9ca3af;
+            padding: 40px 0 24px;
+        }
+        .footer-content {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr 1fr;
+            gap: 40px;
+            margin-bottom: 30px;
+        }
+        .footer-brand h3 {
+            color: #fff;
+            font-size: 20px;
+            margin-bottom: 12px;
+        }
+        .footer-brand p {
+            font-size: 13px;
+            line-height: 1.8;
+        }
+        .footer-col h4 {
+            color: #fff;
+            font-size: 15px;
+            margin-bottom: 14px;
+        }
+        .footer-col ul { list-style: none; }
+        .footer-col li {
+            margin-bottom: 8px;
+            font-size: 13px;
+        }
+        .footer-col a:hover { color: #fff; }
+        .footer-links {
+            border-top: 1px solid #374151;
+            padding-top: 18px;
+            margin-bottom: 18px;
+            font-size: 13px;
+            color: #9ca3af;
+            line-height: 1.8;
+        }
+        .footer-links span { color: #6b7280; margin-right: 6px; }
+        .footer-links a { color: #9ca3af; transition: color 0.2s; }
+        .footer-links a:hover { color: #fff; }
+
+        .footer-bottom {
+            border-top: 1px solid #374151;
+            padding-top: 20px;
+            text-align: center;
+            font-size: 12px;
+        }
+        .footer-disclaimer {
+            background: #111827;
+            padding: 12px 0;
+            text-align: center;
+            font-size: 12px;
+            color: #6b7280;
+        }
+
+        /* 悬浮客服 */
+        .float-contact {
+            position: fixed;
+            right: 20px;
+            bottom: 80px;
+            z-index: 99;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        .float-btn {
+            width: 56px;
+            height: 56px;
+            background: #1a56db;
+            color: #fff;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 24px;
+            box-shadow: 0 4px 16px rgba(26,86,219,0.4);
+            cursor: pointer;
+            transition: transform 0.2s;
+        }
+        .float-btn:hover { transform: scale(1.1); }
+        .float-btn.wechat { background: #07c160; box-shadow: 0 4px 16px rgba(7,193,96,0.4); }
+        .float-btn.phone { background: #f59e0b; box-shadow: 0 4px 16px rgba(245,158,11,0.4); }
+
+        /* 微信弹窗 */
+        .wechat-modal {
+            display: none;
+            position: fixed;
+            top: 0; left: 0;
+            width: 100%; height: 100%;
+            background: rgba(0,0,0,0.5);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+        .wechat-modal.show { display: flex; }
+        .wechat-modal-content {
+            background: #fff;
+            border-radius: 12px;
+            padding: 32px 28px;
+            width: 320px;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
+        .wechat-modal-close {
+            position: absolute;
+            top: 12px; right: 16px;
+            font-size: 24px;
+            color: #999;
+            cursor: pointer;
+            line-height: 1;
+        }
+        .wechat-modal-close:hover { color: #333; }
+        .wechat-modal-title {
+            font-size: 18px;
+            font-weight: 600;
+            color: #1a56db;
+            margin-bottom: 20px;
+        }
+        .wechat-id-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 10px;
+            margin-bottom: 14px;
+        }
+        .wechat-id-row span {
+            font-size: 20px;
+            font-weight: 700;
+            color: #1f2937;
+            letter-spacing: 1px;
+        }
+        .copy-btn {
+            padding: 6px 16px;
+            background: #07c160;
+            color: #fff;
+            border: none;
+            border-radius: 6px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: background 0.2s;
+        }
+        .copy-btn:hover { background: #06ad56; }
+        .wechat-modal-tip {
+            font-size: 12px;
+            color: #9ca3af;
+        }
+
+        /* 响应式 */
+        @media (max-width: 900px) {
+            .hero-content { grid-template-columns: 1fr; }
+            .hero h1 { font-size: 28px; }
+            .demand-grid { grid-template-columns: repeat(2, 1fr); }
+            .process-steps { grid-template-columns: repeat(2, 1fr); }
+            .article-grid { grid-template-columns: 1fr; }
+            .footer-content { grid-template-columns: 1fr 1fr; }
+            .nav { display: none; }
+        }
+        @media (max-width: 480px) {
+            .demand-grid { grid-template-columns: 1fr; }
+            .process-steps { grid-template-columns: 1fr; }
+            .footer-content { grid-template-columns: 1fr; }
+            .form-row { grid-template-columns: 1fr; }
+        }
+    </style>
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Organization",
+    "@id": "https://厂房出租.com/#organization",
+    "name": "厂房出租.com",
+    "url": "https://厂房出租.com",
+    "description": "专注上海工业园区厂房、仓库出租信息对接平台，覆盖宝山、嘉定、青浦、松江等区域，全程免费，真实房源",
+    "foundingDate": "2024",
+    "contactPoint": {
+      "@type": "ContactPoint",
+      "telephone": "+86-137-6442-7878",
+      "contactType": "customer service",
+      "availableLanguage": ["Chinese"]
+    },
+    "knowsAbout": ["厂房出租", "上海厂房", "工业园区", "仓库租赁", "厂房选址"],
+    "hasOfferCatalog": {
+      "@type": "OfferCatalog",
+      "name": "厂房出租服务",
+      "itemListElement": [
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "可环评厂房", "description": "可通过环保审批的厂房"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "带行车厂房", "description": "配备起重设备的厂房"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "独栋厂房", "description": "独立使用权的厂房"}},
+        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "小面积厂房", "description": "500-2000平米厂房"}}
+      ]
+    },
+    "areaServed": [
+      {"@type": "Place", "name": "上海市"},
+      {"@type": "Place", "name": "昆山市"},
+      {"@type": "Place", "name": "太仓市"}
+    ]
+  }
+  </script>
+</head>
+<body>
+
+<!-- 顶部导航 -->
+<header class="header">
+    <div class="container header-inner">
+        <div class="logo">厂房出租<span>.com</span></div>
+        <nav class="nav">
+            <a href="#demand">热门需求</a>
+            <a href="#process">服务流程</a>
+            <a href="#articles">厂房知识</a>
+            <a href="#contact">联系我们</a>
+        </nav>
+        <div class="header-phone">📞 免费对接：见页脚微信</div>
+    </div>
+</header>
+
+<!-- Hero区域 -->
+<section class="hero">
+    <div class="container hero-content">
+        <div class="hero-left">
+            <h1>上海厂房出租<br><em>免费对接</em>优质工业园区资源</h1>
+            <p class="hero-subtitle">覆盖宝山、嘉定、青浦、松江、奉贤等区域，标准厂房、独栋厂房、仓库仓储，可环评、带行车、层高8米，一对一免费匹配</p>
+            <div class="hero-features">
+                <div class="hero-feature">不向承租方收费</div>
+                <div class="hero-feature">1对1精准匹配</div>
+                <div class="hero-feature">全程免费带看</div>
+                <div class="hero-feature">工业园区直签</div>
+            </div>
+        </div>
+        <div class="lead-form" id="contact">
+            <h3>免费求租登记</h3>
+            <p>填写需求，1个工作日内为您匹配厂房</p>
+            <form id="leadForm" onsubmit="handleSubmit(event)">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>需求面积 <span class="required">*</span></label>
+                        <select name="area" required>
+                            <option value="">请选择</option>
+                            <option value="300以下">300㎡以下</option>
+                            <option value="300-500">300-500㎡</option>
+                            <option value="500-1000">500-1000㎡</option>
+                            <option value="1000-2000">1000-2000㎡</option>
+                            <option value="2000-5000">2000-5000㎡</option>
+                            <option value="5000以上">5000㎡以上</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>期望区域 <span class="required">*</span></label>
+                        <select name="region" required>
+                            <option value="">请选择</option>
+                            <option value="宝山">宝山区</option>
+                            <option value="嘉定">嘉定区</option>
+                            <option value="青浦">青浦区</option>
+                            <option value="松江">松江区</option>
+                            <option value="奉贤">奉贤区</option>
+                            <option value="金山">金山区</option>
+                            <option value="浦东">浦东新区</option>
+                            <option value="周边">上海周边（昆山/太仓）</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-row">
+                    <div class="form-group">
+                        <label>行业类型</label>
+                        <select name="industry">
+                            <option value="">请选择</option>
+                            <option value="生产加工">生产加工</option>
+                            <option value="仓储物流">仓储物流</option>
+                            <option value="五金机械">五金机械</option>
+                            <option value="电子装配">电子装配</option>
+                            <option value="食品加工">食品加工</option>
+                            <option value="电商仓储">电商仓储</option>
+                            <option value="其他">其他</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label>特殊要求</label>
+                        <select name="requirement">
+                            <option value="">请选择</option>
+                            <option value="可环评">可办环评</option>
+                            <option value="带行车">带行车/航车</option>
+                            <option value="层高8米">层高8米以上</option>
+                            <option value="一楼">一楼厂房</option>
+                            <option value="独栋">独门独院</option>
+                            <option value="带宿舍">带宿舍办公</option>
+                            <option value="无">无特殊要求</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label>您的称呼 <span class="required">*</span></label>
+                    <input type="text" name="name" placeholder="先生/女士" required>
+                </div>
+                <div class="form-group">
+                    <label>联系电话/微信 <span class="required">*</span></label>
+                    <input type="text" name="contact" placeholder="手机号或微信号" required>
+                </div>
+                <button type="submit" class="submit-btn">免费提交需求</button>
+                <p class="form-note">🔒 您的信息仅用于厂房对接，绝不外泄</p>
+            </form>
+        </div>
+    </div>
+</section>
+
+<!-- 热门需求 -->
+<section class="section" id="demand">
+    <div class="container">
+        <div class="section-title">
+            <h2>热门厂房需求</h2>
+            <p>根据企业常见需求，精准匹配上海各区域优质厂房</p>
+        </div>
+        <div class="demand-grid">
+            <div class="demand-card">
+                <div class="demand-icon">🏭</div>
+                <h4>标准厂房</h4>
+                <p>1000-5000㎡，工业园区，配套齐全</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">🏗️</div>
+                <h4>独栋厂房</h4>
+                <p>独门独院，带办公宿舍，适合生产总部</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">📦</div>
+                <h4>仓库仓储</h4>
+                <p>一楼层高，大车进出方便，电商物流首选</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">⚙️</div>
+                <h4>可环评厂房</h4>
+                <p>工业园区内，工业用地，支持生产加工环评</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">🚜</div>
+                <h4>带行车厂房</h4>
+                <p>层高8米以上，预装5-10吨行车，机械加工</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">🏢</div>
+                <h4>小面积厂房</h4>
+                <p>300-800㎡，可分割，适合初创小微企业</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">🚚</div>
+                <h4>靠近高速厂房</h4>
+                <p>G15/G2/G50高速口附近，物流运输便捷</p>
+            </div>
+            <div class="demand-card">
+                <div class="demand-icon">🔌</div>
+                <h4>大电量厂房</h4>
+                <p>独立变压器，大容量用电，适合设备密集型</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 服务流程 -->
+<section class="section process-section" id="process">
+    <div class="container">
+        <div class="section-title">
+            <h2>服务流程</h2>
+            <p>四步搞定厂房租赁，全程免费，省心省力</p>
+        </div>
+        <div class="process-steps">
+            <div class="process-step">
+                <div class="step-number">1</div>
+                <h4>提交需求</h4>
+                <p>在线填写面积、区域、行业等需求，1分钟完成</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">2</div>
+                <h4>精准匹配</h4>
+                <p>根据需求从合作园区中筛选3-5套最合适厂房</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">3</div>
+                <h4>免费带看</h4>
+                <p>安排专车或自行前往，全程陪同讲解，不收费用</p>
+            </div>
+            <div class="process-step">
+                <div class="step-number">4</div>
+                <h4>签约入驻</h4>
+                <p>协助谈判租金、合同条款，与园区直签，安心入驻</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- 资讯文章 -->
+<section class="section" id="articles">
+    <div class="container">
+        <div class="section-title">
+            <h2>厂房租赁知识</h2>
+            <p>租厂房前必看，避坑指南与实用攻略</p>
+        </div>
+        <div class="article-grid">
+
+            <a href="article-1.html" class="article-card">
+                <div class="article-img">📋</div>
+                <div class="article-body">
+                    <span class="article-tag">避坑指南</span>
+                    <h4>上海租厂房需要注意哪些事项？2026最新版</h4>
+                    <p>从产权性质、环评要求、消防验收到合同条款，全面梳理租厂房必须核实的10个关键事项，避免踩坑...</p>
+                </div>
+            </a>
+
+            <a href="article-2.html" class="article-card">
+                <div class="article-img">💰</div>
+                <div class="article-body">
+                    <span class="article-tag">租金行情</span>
+                    <h4>上海工业园区厂房租金多少钱一平米？各区价格对比</h4>
+                    <p>宝山、嘉定、青浦、松江、奉贤各区域厂房租金行情一览，一楼、二楼、独栋价格差异分析，帮你预算...</p>
+                </div>
+            </a>
+
+            <a href="article-3.html" class="article-card">
+                <div class="article-img">🏭</div>
+                <div class="article-body">
+                    <span class="article-tag">环评攻略</span>
+                    <h4>租厂房办环评有什么要求？哪些行业必须做环评？</h4>
+                    <p>环评分类管理名录解读，哪些行业需要做环评报告表/书，厂房需要满足哪些条件才能通过环评审批...</p>
+                </div>
+            </a>
+
+            <a href="article-4.html" class="article-card">
+                <div class="article-img">📋</div>
+                <div class="article-body">
+                    <span class="article-tag">政策资讯</span>
+                    <h4>2026年上海工业园区招商政策与企业落户优惠汇总</h4>
+                    <p>租金补贴、税收返还、人才补贴、环评绿色通道...上海各区域工业园区招商优惠政策全解读，帮你选址时争取最大福利...</p>
+                </div>
+            </a>
+
+            <a href="article-5.html" class="article-card">
+                <div class="article-img">📝</div>
+                <div class="article-body">
+                    <span class="article-tag">合同指南</span>
+                    <h4>厂房租赁合同怎么签？2026标准模板与10个必看条款</h4>
+                    <p>完整厂房租赁合同标准模板，10个关键条款逐条详解：拆迁补偿、维修责任、押金退还、租金递增、违约责任...签约前必读避坑...</p>
+                </div>
+            </a>
+
+            <a href="article-6.html" class="article-card">
+                <div class="article-img">🗺️</div>
+                <div class="article-body">
+                    <span class="article-tag">园区推荐</span>
+                    <h4>上海重点工业园区推荐与企业选址指南（2026最新）</h4>
+                    <p>宝山、嘉定、青浦、松江、奉贤、金山、浦东各区域重点园区推荐，含主导产业、交通优势、租金水平、适合企业类型，生产/仓储/研发企业选址全指南...</p>
+                </div>
+            </a>
+
+            <a href="article-7.html" class="article-card">
+                <div class="article-img">🔨</div>
+                <div class="article-body">
+                    <span class="article-tag">装修指南</span>
+                    <h4>厂房装修注意事项与费用预算（2026最新）</h4>
+                    <p>厂房装修全攻略：各项目费用明细表、简装/中装/精装预算参考、消防审批、承重用电、环保要求、装修公司选择、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-8.html" class="article-card">
+                <div class="article-img">🚚</div>
+                <div class="article-body">
+                    <span class="article-tag">搬迁指南</span>
+                    <h4>企业搬迁流程与注意事项（2026最新）厂房搬迁全攻略</h4>
+                    <p>企业搬迁全流程：搬迁前准备、设备拆卸包装、运输吊装、安装调试、试生产，重型/精密设备搬迁注意事项，搬迁费用预算，4大风险防范，地址变更手续...</p>
+                </div>
+            </a>
+
+            <a href="article-9.html" class="article-card">
+                <div class="article-img">📦</div>
+                <div class="article-body">
+                    <span class="article-tag">仓储指南</span>
+                    <h4>上海仓库租赁注意事项与选择指南（2026最新）</h4>
+                    <p>仓库6种类型选择（平库/高台库/立体库/冷链库/危险品库/电商云仓）、租赁考察8大要点、租金费用明细、合同注意事项、不同行业仓库选择建议、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-10.html" class="article-card">
+                <div class="article-img">🔥</div>
+                <div class="article-body">
+                    <span class="article-tag">消防指南</span>
+                    <h4>厂房消防验收标准与办理流程（2026最新）</h4>
+                    <p>火灾危险性分类（甲乙丙丁戊类）、耐火等级、防火分区、消防设施配置标准、消防设计审查与验收办理流程、常见消防问题整改方案、租赁厂房消防注意事项、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-11.html" class="article-card">
+                <div class="article-img">⚡</div>
+                <div class="article-body">
+                    <span class="article-tag">用电指南</span>
+                    <h4>厂房用电与变压器增容指南（2026最新）</h4>
+                    <p>变压器容量选择、用电负荷计算、上海工业用电价格、租赁厂房用电考察要点、变压器增容6步办理流程、增容费用明细、常见用电问题解决方案、节能降耗建议、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-12.html" class="article-card">
+                <div class="article-img">📜</div>
+                <div class="article-body">
+                    <span class="article-tag">产权指南</span>
+                    <h4>厂房产权与土地性质核查指南（2026最新）</h4>
+                    <p>工业用地出让/划拨/集体土地区别、厂房产权证类型、违建风险识别、土地性质对营业执照和环评的影响、租前产权核查10项清单、集体土地租赁注意事项、产权纠纷防范、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-13.html" class="article-card">
+                <div class="article-img">🌱</div>
+                <div class="article-body">
+                    <span class="article-tag">环保指南</span>
+                    <h4>厂房环保排污许可证办理指南（2026最新）</h4>
+                    <p>排污许可分类管理（重点/简化/登记）、排污许可证办理流程、废水废气固废噪声治理要求、自行监测与执行报告、常见环保处罚标准表、租赁厂房环保注意事项、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-14.html" class="article-card">
+                <div class="article-img">🏗️</div>
+                <div class="article-body">
+                    <span class="article-tag">结构指南</span>
+                    <h4>厂房层高与结构承重选择指南（2026最新）</h4>
+                    <p>标准厂房层高分类、行车厂房选择（牛腿/轨距/承重）、地面承重标准、楼板承重计算、厂房跨度与柱距、装卸平台与月台、9大行业厂房参数选择建议、租前结构考察10项清单、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-15.html" class="article-card">
+                <div class="article-img">🚛</div>
+                <div class="article-body">
+                    <span class="article-tag">选址指南</span>
+                    <h4>上海厂房选址与交通物流指南（2026最新）</h4>
+                    <p>上海主要高速与物流通道、8大区域交通产业对比、物流成本测算方法、周边配套评估、招工与通勤考虑、环保敏感区域、选址考察10项清单、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-16.html" class="article-card">
+                <div class="article-img">💰</div>
+                <div class="article-body">
+                    <span class="article-tag">租金指南</span>
+                    <h4>厂房租金构成与谈判技巧指南（2026最新）</h4>
+                    <p>租金费用构成拆解（租金/物业/水电/押金/免租期/递增）、报价虚高6个信号、10条谈判策略、二房东加价破解、签约费用条款核对12项清单、8大费用陷阱、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-17.html" class="article-card">
+                <div class="article-img">🔑</div>
+                <div class="article-body">
+                    <span class="article-tag">退租指南</span>
+                    <h4>厂房退租与押金返还攻略（2026最新）</h4>
+                    <p>退租前准备（通知期限/合同条款核对）、退租交接5步流程、押金能扣什么不能扣什么、押金扣款6大纠纷应对、退租交接10项清单、续租转租注意事项、押金纠纷维权途径、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-18.html" class="article-card">
+                <div class="article-img">🌬️</div>
+                <div class="article-body">
+                    <span class="article-tag">通风降温</span>
+                    <h4>厂房车间通风降温与环境改善指南（2026最新）</h4>
+                    <p>车间高温危害、热源分析、8种通风降温方案对比表、不同车间降温方案建议、通风设计关键参数、粉尘有害气体湿度管理、环保节能建议、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-19.html" class="article-card">
+                <div class="article-img">🏘️</div>
+                <div class="article-body">
+                    <span class="article-tag">配套指南</span>
+                    <h4>厂房配套与员工生活设施指南（2026最新）</h4>
+                    <p>员工宿舍配置标准、食堂餐饮3种方案、通勤与班车运营、周边生活配套考察表、招工留人策略、宿舍消防与安全管理、三合一场所红线、配套完善园区选择、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-20.html" class="article-card">
+                <div class="article-img">🦺</div>
+                <div class="article-body">
+                    <span class="article-tag">安全指南</span>
+                    <h4>厂房安全生产与安全管理指南（2026最新）</h4>
+                    <p>安全生产法规与主体责任、安全生产标准化建设、危险源辨识与风险管控（机械/危化品/粉尘/有限空间）、特种设备与特种作业持证管理、职业健康防护、应急预案、租赁安全责任划分、常见处罚标准表、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-21.html" class="article-card">
+                <div class="article-img">🛡️</div>
+                <div class="article-body">
+                    <span class="article-tag">保险指南</span>
+                    <h4>厂房保险配置指南（2026最新）</h4>
+                    <p>财产综合险/机器损坏险/营业中断险/公众责任险/雇主责任险对比表、保额确定方法、租赁厂房保险责任划分、投保5步流程、理赔注意事项、保险条款陷阱识别、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-22.html" class="article-card">
+                <div class="article-img">🚨</div>
+                <div class="article-body">
+                    <span class="article-tag">防骗指南</span>
+                    <h4>厂房租赁常见骗局与风险防范指南（2026最新）</h4>
+                    <p>8大骗局类型识别（虚假房源/低价引流/二房东卷款/重复出租/伪造证件/付费带看/合同陷阱/押金纠纷）、虚假房源识别技巧、二房东风险防范、签约前文件核实清单、合同防坑要点、被骗维权4步、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-23.html" class="article-card">
+                <div class="article-img">☣️</div>
+                <div class="article-body">
+                    <span class="article-tag">危化指南</span>
+                    <h4>危化品厂房与仓储租赁指南（2026最新）</h4>
+                    <p>甲类乙类厂房要求、防爆防静电要求、危化品仓库分类与分区储存、危化品经营许可4步办理、租赁危化品厂房考察要点、园区产业限制、特殊行业禁区、危废管理与应急合规、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-24.html" class="article-card">
+                <div class="article-img">🧊</div>
+                <div class="article-body">
+                    <span class="article-tag">冷链指南</span>
+                    <h4>冷链仓库租赁指南（2026最新）</h4>
+                    <p>冷库4大类型与温度标准（保鲜/冷藏/冷冻/超低温）、库体保温与库门装卸要求、制冷设备与温控系统、电力保障要点、普通仓库改冷库方案与费用、租赁考察实测要点、冷链选址与行业合规、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-25.html" class="article-card">
+                <div class="article-img">🔁</div>
+                <div class="article-body">
+                    <span class="article-tag">转租指南</span>
+                    <h4>厂房转租与分租指南（2026最新）</h4>
+                    <p>转租/分租/合同转让三种模式区别、转租合法性判断与房东书面同意、转租合同双方要点、分租消防责任划分、水电独立计量、二房东利润测算与风险、转租税务处理、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-26.html" class="article-card">
+                <div class="article-img">®️</div>
+                <div class="article-body">
+                    <span class="article-tag">商标查询</span>
+                    <h4>商标查询全攻略：商标查询官网、流程与避坑指南（2026最新）</h4>
+                    <p>商标查询官网入口（中国商标网）、商标近似查询/综合查询/状态查询三种方式、商标查询流程4步、商标查询费用说明、商标近似判断技巧、商标查询常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-27.html" class="article-card">
+                <div class="article-img">🏭</div>
+                <div class="article-body">
+                    <span class="article-tag">行情指南</span>
+                    <h4>上海厂房出租全攻略：价格、区域与避坑指南（2026最新）</h4>
+                    <p>上海厂房出租价格行情（宝山/嘉定/青浦/松江/奉贤对比）、热门区域怎么选、标准厂房/独栋/仓库/可环评厂房怎么挑、厂房出租4步流程、租金押金与免租期FAQ、避坑要点...</p>
+                </div>
+            </a>
+
+            <a href="article-28.html" class="article-card">
+                <div class="article-img">🏘️</div>
+                <div class="article-body">
+                    <span class="article-tag">园区厂房</span>
+                    <h4>工业园区厂房出租怎么选：选择指南（2026最新）</h4>
+                    <p>工业园区厂房出租与普通厂房出租对比、园区厂房出租类型（标准/研发/仓储/定制）、选园区4大关键指标、上海主要工业园区厂房出租行情、入驻5步流程、选园区常见误区、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-29.html" class="article-card">
+                <div class="article-img">📝</div>
+                <div class="article-body">
+                    <span class="article-tag">厂房出租</span>
+                    <h4>厂房出租流程与注意事项全解析：签约、验房与入驻指南（2026最新）</h4>
+                    <p>厂房出租流程五步全景、看房验房要点（面积/产权/设施）、厂房出租签约必写条款、押金与免租期谈判、入驻交接四步、中介vs直租选择、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-30.html" class="article-card">
+                <div class="article-img">🔍</div>
+                <div class="article-body">
+                    <span class="article-tag">厂房出租</span>
+                    <h4>厂房出租平台怎么选？上海厂房出租信息免费对接指南</h4>
+                    <p>厂房出租平台选择要点（房源真实性/更新速度/收费模式）、上海厂房出租信息获取渠道、厂房出租求租流程五步、上海厂房出租价格参考、5条避坑提示...</p>
+                </div>
+            </a>
+
+            <a href="article-31.html" class="article-card">
+                <div class="article-img">🏡</div>
+                <div class="article-body">
+                    <span class="article-tag">独栋厂房</span>
+                    <h4>独栋厂房出租怎么选？独栋厂房出租与标准厂房出租对比指南（2026最新）</h4>
+                    <p>独栋厂房出租与标准厂房出租的区别对比表、独栋厂房三大优势、适合哪些企业、独栋厂房出租价格行情、独栋厂房考察要点（产权/面积/硬件/配套）、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-32.html" class="article-card">
+                <div class="article-img">🏢</div>
+                <div class="article-body">
+                    <span class="article-tag">小面积厂房</span>
+                    <h4>上海小面积厂房出租全攻略：小厂房出租价格、流程与避坑指南（2026最新）</h4>
+                    <p>上海各区小面积厂房出租价格参考表、小厂房出租5大找房渠道、小面积厂房出租4步流程、小面积厂房出租注意事项（面积/楼层/消防/合同）、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-33.html" class="article-card">
+                <div class="article-img">🏗️</div>
+                <div class="article-body">
+                    <span class="article-tag">带行车厂房</span>
+                    <h4>带行车厂房出租怎么选？行车吨位选择与避坑指南（2026最新）</h4>
+                    <p>行车吨位选择表（1-32吨适用场景）、带行车厂房出租硬性指标考察（层高/牛腿/跨度/行车状态）、带行车厂房出租价格行情、签约要点、行车安全与合规要求、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-34.html" class="article-card">
+                <div class="article-img">⚖️</div>
+                <div class="article-body">
+                    <span class="article-tag">租买对比</span>
+                    <h4>厂房出租还是买厂房？租厂房与买厂房优缺点对比（2026最新）</h4>
+                    <p>厂房出租优缺点与买厂房优缺点对比、关键维度对比表（资金/灵活性/税务/融资）、什么情况选租什么情况选买、先租后买折中思路、5个常见问题、总结建议...</p>
+                </div>
+            </a>
+
+            <a href="article-35.html" class="article-card">
+                <div class="article-img">🌿</div>
+                <div class="article-body">
+                    <span class="article-tag">可环评厂房</span>
+                    <h4>可环评厂房出租怎么选？上海可环评厂房出租指南（2026最新）</h4>
+                    <p>什么样厂房能办环评（工业用地/104板块/行业分类）、可环评厂房出租考察清单、上海各区可环评厂房出租价格行情、找房渠道、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-36.html" class="article-card">
+                <div class="article-img">📝</div>
+                <div class="article-body">
+                    <span class="article-tag">房东指南</span>
+                    <h4>厂房出租信息怎么写？厂房出租信息发布与定价指南（2026最新）</h4>
+                    <p>厂房出租信息必备要素清单、可直接复制的厂房出租信息模板、厂房出租价格定价方法、上海各区厂房出租价格参考、厂房出租信息发布渠道对比、常见错误与避坑、5个常见问题...</p>
+                </div>
+            </a>
+
+            <a href="article-37.html" class="article-card">
+                <div class="article-img">📦</div>
+                <div class="article-body">
+                    <span class="article-tag">仓库厂房</span>
+                    <h4>仓库厂房出租怎么选？仓储厂房出租价格与考察要点（2026最新）</h4>
+                    <p>仓库厂房出租与普通仓库出租的区别对比表、2026上海仓储厂房出租价格行情参考、仓库厂房出租考察要点（层高/消防/装卸/承重）、仓库厂房出租流程与签约、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-38.html" class="article-card">
+                <div class="article-img">🏭</div>
+                <div class="article-body">
+                    <span class="article-tag">标准厂房</span>
+                    <h4>标准厂房出租怎么选？标准厂房出租价格与特点全解析（2026最新）</h4>
+                    <p>什么是标准厂房、标准厂房6大特点、2026上海标准厂房出租价格行情参考表、标准厂房与独栋厂房/普通厂房区别对比、考察要点（产权/硬件/消防/园区）、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-39.html" class="article-card">
+                <div class="article-img">⚡</div>
+                <div class="article-body">
+                    <span class="article-tag">大电量厂房</span>
+                    <h4>大电量厂房出租怎么选？大电量厂房出租价格与考察要点（2026最新）</h4>
+                    <p>什么是大电量厂房出租与适用企业、厂房用电容量测算方法、大电量厂房出租考察要点（变压器/供电方式/增容）、大电量厂房出租价格行情、签约要点、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-40.html" class="article-card">
+                <div class="article-img">🪜</div>
+                <div class="article-body">
+                    <span class="article-tag">一楼厂房</span>
+                    <h4>一楼厂房出租怎么选？一楼厂房出租价格与优劣势分析（2026最新）</h4>
+                    <p>一楼厂房出租为什么抢手（5大优势）、一楼厂房出租与楼上厂房对比表、2026上海一楼厂房出租价格行情参考、一楼厂房出租考察要点（承重/层高/装卸/防潮/消防）、签约流程、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-41.html" class="article-card">
+                <div class="article-img">💰</div>
+                <div class="article-body">
+                    <span class="article-tag">费用指南</span>
+                    <h4>厂房出租免租期怎么谈？厂房出租押金与费用构成全解析（2026最新）</h4>
+                    <p>厂房出租费用构成总览表、厂房出租免租期怎么谈（4个谈判筹码）、厂房出租押金怎么收怎么退、物业费与水电费标准、租金递增条款、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-42.html" class="article-card">
+                <div class="article-img">🤝</div>
+                <div class="article-body">
+                    <span class="article-tag">中介费指南</span>
+                    <h4>厂房出租中介费怎么算？中介费谁出与避坑指南（2026最新）</h4>
+                    <p>厂房出租中介费标准（月租金50%-100%）、厂房出租中介费谁出（房东/租客/各半）、找中介还是直租对比表、中介费避坑要点、跳单等常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-43.html" class="article-card">
+                <div class="article-img">🧾</div>
+                <div class="article-body">
+                    <span class="article-tag">税费指南</span>
+                    <h4>厂房出租税费怎么算？厂房出租发票与税务避坑指南（2026最新）</h4>
+                    <p>厂房出租税费总览表（增值税/房产税/附加/印花税）、厂房出租发票开具要点、厂房出租税费谁承担、税务避坑要点、常见问题、税务口径提示...</p>
+                </div>
+            </a>
+
+            <a href="article-44.html" class="article-card">
+                <div class="article-img">📐</div>
+                <div class="article-body">
+                    <span class="article-tag">高层高厂房</span>
+                    <h4>层高8米厂房出租怎么选？高层高厂房出租价格与考察要点（2026最新）</h4>
+                    <p>层高8米厂房出租5大优势、适用行业对照表（机械加工/仓储物流/展厅）、2026上海层高8米厂房出租价格行情、考察要点（净空/柱距/行车/消防/装卸）、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-45.html" class="article-card">
+                <div class="article-img">📏</div>
+                <div class="article-body">
+                    <span class="article-tag">面积计算</span>
+                    <h4>厂房出租面积怎么算？建筑面积、使用面积与公摊详解（2026最新）</h4>
+                    <p>厂房建筑面积/使用面积/公摊面积三种口径对比表、厂房出租面积三种算法、看房实测要点、厂房出租面积合同条款示例、常见面积纠纷与防坑、FAQ、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-46.html" class="article-card">
+                <div class="article-img">⚡</div>
+                <div class="article-body">
+                    <span class="article-tag">水电指南</span>
+                    <h4>厂房出租水电费怎么算？转供电加价与降费避坑指南（2026最新）</h4>
+                    <p>厂房出租水电费构成表、转供电电费计价公式（平均电价+损耗率）、转供电加价政策红线、厂房出租电费水费计价方式、降费5步法、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-47.html" class="article-card">
+                <div class="article-img">⚖️</div>
+                <div class="article-body">
+                    <span class="article-tag">违约解约</span>
+                    <h4>厂房出租违约与解约怎么办？违约金标准与避坑指南（2026最新）</h4>
+                    <p>厂房出租违约常见情形分类表、厂房出租违约金怎么算（约定/调减/损失赔偿）、提前解约4步流程与通知义务、房东违约赔偿路径、押金不退追索方法、结合民法典与真实判例、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-48.html" class="article-card">
+                <div class="article-img">🏬</div>
+                <div class="article-body">
+                    <span class="article-tag">办公厂房</span>
+                    <h4>厂房带办公室出租怎么选？厂房出租带办公价格与考察要点（2026最新）</h4>
+                    <p>厂房带办公室出租适合哪些企业（生产加工/组装/电商仓储/研发）、2026上海厂房出租带办公价格行情参考、厂房带办公室出租考察要点（面积配比/装修/水电/消防）、签约要点、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-49.html" class="article-card">
+                <div class="article-img">📄</div>
+                <div class="article-body">
+                    <span class="article-tag">注册地址</span>
+                    <h4>厂房出租可以注册公司吗？厂房地址办营业执照指南（2026最新）</h4>
+                    <p>厂房出租注册公司政策依据解读（上海/北京住所登记规定）、厂房地址注册公司6项条件、厂房出租办营业执照5步流程、哪些厂房不能注册、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-50.html" class="article-card">
+                <div class="article-img">🔄</div>
+                <div class="article-body">
+                    <span class="article-tag">续租指南</span>
+                    <h4>厂房出租续租怎么谈？续租流程、涨价应对与优先续租权（2026最新）</h4>
+                    <p>厂房出租到期四种走向对比表、厂房续租流程5步（提前3个月书面提出）、厂房续租涨价应对策略、优先续租权法律依据（民法典734条）、厂房续租合同要点、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-51.html" class="article-card">
+                <div class="article-img">🗺️</div>
+                <div class="article-body">
+                    <span class="article-tag">104板块</span>
+                    <h4>厂房出租104板块是什么意思？上海104板块厂房优势与查询方法（2026最新）</h4>
+                    <p>104板块定义与政策依据（上海市政府规划）、104板块/195区域/198区域区别对比表、104板块厂房出租4大优势（可环评/可注册/产证全/配套齐）、价格行情参考、4种查询方法、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-52.html" class="article-card">
+                <div class="article-img">🔧</div>
+                <div class="article-body">
+                    <span class="article-tag">维修指南</span>
+                    <h4>厂房出租维修责任怎么划分？维修费用谁出与避坑指南（2026最新）</h4>
+                    <p>民法典厂房维修义务规定（712/713条）、厂房常见维修项目责任对照表、厂房漏水维修处理流程、维修费用谁出的五种情形、维修合同条款写法、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-53.html" class="article-card">
+                <div class="article-img">🧪</div>
+                <div class="article-body">
+                    <span class="article-tag">无尘车间</span>
+                    <h4>无尘车间出租怎么选？洁净厂房出租价格与等级标准（2026最新）</h4>
+                    <p>百级/千级/万级/十万级洁净等级标准对照、洁净厂房出租价格行情、无尘车间出租考察要点（净化系统/电力/环评）、出租流程与签约要点、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-54.html" class="article-card">
+                <div class="article-img">🏠</div>
+                <div class="article-body">
+                    <span class="article-tag">产权变动</span>
+                    <h4>厂房出租期间房东卖房怎么办？买卖不破租赁与优先购买权（2026最新）</h4>
+                    <p>买卖不破租赁（民法典725条）、优先购买权（726条/728条）与两个例外情形（先抵押/先查封）、房东卖房时租户应对5步流程、新房东收房处理、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-55.html" class="article-card">
+                <div class="article-img">📄</div>
+                <div class="article-body">
+                    <span class="article-tag">合同范本</span>
+                    <h4>厂房出租合同范本怎么写？厂房租赁合同必备条款与签约注意事项（2026最新）</h4>
+                    <p>厂房租赁合同必备条款清单（租期/租金/保证金/维修/转租/违约）、签约前产权核验4件事、租金保证金条款写法、备案登记与安全生产协议要求、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-56.html" class="article-card">
+                <div class="article-img">📦</div>
+                <div class="article-body">
+                    <span class="article-tag">到期退租</span>
+                    <h4>厂房出租到期怎么办？清退流程与押金退还避坑指南（2026最新）</h4>
+                    <p>厂房到期不续租5步清退流程（提前申请/结清费用/恢复原状/验收交接/退押金）、腾退装修与设备处理表、押金退还规则、不定期租赁风险警示、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-57.html" class="article-card">
+                <div class="article-img">☀️</div>
+                <div class="article-body">
+                    <span class="article-tag">光伏屋顶</span>
+                    <h4>厂房出租屋顶装光伏划算吗？屋顶光伏出租收益与注意事项（2026最新）</h4>
+                    <p>屋顶光伏出租两种模式（屋顶租赁/合同能源管理）对比表、厂房屋顶光伏租金行情、厂房装光伏的收益与好处、注意事项（承重/防水/并网）、光伏项目租赁合同要点、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-58.html" class="article-card">
+                <div class="article-img">🏢</div>
+                <div class="article-body">
+                    <span class="article-tag">双层厂房</span>
+                    <h4>双层厂房出租怎么选？楼库厂房出租优势与注意事项（2026最新）</h4>
+                    <p>双层厂房和单层厂房对比表、楼库厂房出租优势与适用行业、双层厂房出租考察要点（层高/承重/货梯/消防）、价格行情、签约注意事项、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-59.html" class="article-card">
+                <div class="article-img">📐</div>
+                <div class="article-body">
+                    <span class="article-tag">改造审批</span>
+                    <h4>厂房改造需要审批吗？厂房改建扩建审批流程与注意事项（2026最新）</h4>
+                    <p>厂房装修改造/结构改造/改建扩建三种类型对照表、厂房改建审批流程（规划许可/施工许可/消防审查备案）、消防改造备案要求、租户改造前必做3件事、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-60.html" class="article-card">
+                <div class="article-img">📍</div>
+                <div class="article-body">
+                    <span class="article-tag">环沪厂房</span>
+                    <h4>上海周边厂房出租怎么选？昆山太仓嘉善厂房出租优势对比（2026最新）</h4>
+                    <p>昆山/太仓/嘉善/南通厂房出租优势对比表、上海周边厂房价格行情参考、外溢企业选址决策清单（通勤/物流/补贴/环评）、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-61.html" class="article-card">
+                <div class="article-img">⚠️</div>
+                <div class="article-body">
+                    <span class="article-tag">租金催收</span>
+                    <h4>厂房出租租户欠租怎么办？厂房租金拖欠处理流程（2026最新）</h4>
+                    <p>民法典721/722条依据、厂房租金拖欠处理4步流程（催告→合理期限→解除→追讨）、停水停电与强行清退两大禁忌、追讨清退法律途径、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-62.html" class="article-card">
+                <div class="article-img">🧾</div>
+                <div class="article-body">
+                    <span class="article-tag">物业费用</span>
+                    <h4>厂房出租物业费多少钱一平？厂房物业费标准与承担方（2026最新）</h4>
+                    <p>各地园区标准厂房物业费参考表（0.6-2.5元/月/㎡）、厂房物业费谁承担（房东/租户连带责任）、包含与不包含项目清单、公摊水电归属、签约必写5件事、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-63.html" class="article-card">
+                <div class="article-img">🏚️</div>
+                <div class="article-body">
+                    <span class="article-tag">拆迁补偿</span>
+                    <h4>厂房遇到拆迁征收怎么办？厂房拆迁补偿标准与租户能拿多少（2026最新）</h4>
+                    <p>厂房拆迁补偿三项构成（房屋价值/搬迁/停产停业损失）、租户能拿哪些补偿对照表、停产停业损失三种计算口径、各地承租人补偿口径差异、国有与集体土地区别、维权4步、常见问题...</p>
+                </div>
+            </a>
+
+            <a href="article-64.html" class="article-card">
+                <div class="article-img">⏳</div>
+                <div class="article-body">
+                    <span class="article-tag">短租厂房</span>
+                    <h4>厂房可以短租吗？厂房短租3个月/半年注意事项与租金行情（2026最新）</h4>
+                    <p>厂房短租租期门槛与四类愿接短单房源对照表、3个月/半年怎么找、短租vs长租价格上浮区间、合同5个关键条款（民法典707条6个月书面形式）、适合企业、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-65.html" class="article-card">
+                <div class="article-img">📑</div>
+                <div class="article-body">
+                    <span class="article-tag">租赁备案</span>
+                    <h4>厂房租赁合同要备案吗？厂房租赁备案流程与材料清单（2026最新）</h4>
+                    <p>厂房租赁备案法律依据（城市房地产管理法54条、商品房屋租赁管理办法14/15条）、备案4步流程与材料清单、不备案的4项影响、未备案合同是否有效（民法典706条）、厂房与住房备案区别、FAQ、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-66.html" class="article-card">
+                <div class="article-img">🔍</div>
+                <div class="article-body">
+                    <span class="article-tag">二房东</span>
+                    <h4>厂房出租遇到二房东能租吗？厂房转租二房东风险与签约注意事项（2026最新）</h4>
+                    <p>厂房二房东转租合法性3步核实（民法典716/718条、原房东书面同意、剩余租期）、5大风险对照表（无权转租/公摊注水/押金/跑路/租期错配）、签约必查6项、被清退押金不退怎么办、FAQ、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-67.html" class="article-card">
+                <div class="article-img">✅</div>
+                <div class="article-body">
+                    <span class="article-tag">租户审核</span>
+                    <h4>厂房出租怎么筛选靠谱租户？租户资质审核与签约风控（2026最新）</h4>
+                    <p>出租方法定核查义务（"厂中厂"管理规定）、租户资质审核6项清单表、5类高风险行业甄别表、实地考察与背景核实4步、押金与合同风控7条款、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-68.html" class="article-card">
+                <div class="article-img">💰</div>
+                <div class="article-body">
+                    <span class="article-tag">租金减免</span>
+                    <h4>厂房租金可以减免吗？停产停业减租申请与协商指南（2026最新）</h4>
+                    <p>厂房租金减免三种法律依据（协商/不可抗力590条/情势变更533条）、五类情形减免可能性对照表、5步申请流程、5种减免方案谈判要点、国有与非国有房屋政策差异、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+            <a href="article-69.html" class="article-card">
+                <div class="article-img">📅</div>
+                <div class="article-body">
+                    <span class="article-tag">租期指南</span>
+                    <h4>厂房租赁期限规定：最多可以租多少年？20年上限与长租要点（2026最新）</h4>
+                    <p>民法典705条20年上限规定、为什么限制20年、1-3年/5年/10年/15-20年租期适用对照表、长租必约定5项条款（租金递增/优先续租/提前退出/拆迁/免租期）、3种变相延期无效做法、常见问题、10条避坑清单...</p>
+                </div>
+            </a>
+
+        </div>
+        <div class="pagination" id="pagination"></div>
+        <div class="page-info" id="pageInfo"></div>
+    </div>
+</section>
+
+<!-- 底部CTA -->
+<section class="cta-section">
+    <div class="container">
+        <h2>还在为找厂房发愁？</h2>
+        <p>免费提交需求，专业团队1对1为您匹配上海优质厂房资源</p>
+        <a href="#contact" class="cta-btn">立即免费登记求租需求</a>
+    </div>
+</section>
+
+<!-- 页脚 -->
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-brand">
+                <h3>厂房出租.com</h3>
+                <p>专注上海工业园区厂房、仓库出租信息对接服务，连接求租企业与优质园区资源，全程免费，不向承租方收取任何费用。</p>
+            </div>
+            <div class="footer-col">
+                <h4>区域厂房</h4>
+                <ul>
+                    <li><a href="#">宝山厂房出租</a></li>
+                    <li><a href="#">嘉定厂房出租</a></li>
+                    <li><a href="#">青浦厂房出租</a></li>
+                    <li><a href="#">松江厂房出租</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>热门需求</h4>
+                <ul>
+                    <li><a href="#">可环评厂房</a></li>
+                    <li><a href="#">带行车厂房</a></li>
+                    <li><a href="#">独栋厂房出租</a></li>
+                    <li><a href="#">小面积厂房</a></li>
+                </ul>
+            </div>
+            <div class="footer-col">
+                <h4>联系我们</h4>
+                <ul>
+                    <li>微信：mfujun</li>
+                    <li>电话：13764427878</li>
+                    <li>服务时间：9:00-18:00</li>
+                    <li>服务区域：上海及周边</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-links">
+            <span>友情链接：</span>
+            <a href="https://400.xn--fiqs8s" target="_blank" title="400电话办理申请中心 - 400.中国">400电话办理-400.中国</a>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 厂房出租.com 版权所有 | 本站仅提供信息对接服务，不参与租赁交易</p>
+        </div>
+    </div>
+</footer>
+
+<div class="footer-disclaimer">
+    免责声明：本站为信息对接平台，所有厂房信息以园区实际为准。本站不向承租方收取任何费用，佣金由园区/业主方支付。
+</div>
+
+<!-- 悬浮客服 -->
+<div class="float-contact">
+    <div class="float-btn wechat" id="floatWechat" title="微信咨询">💬</div>
+    <div class="float-btn phone" id="floatPhone" title="电话咨询">📞</div>
+    <div class="float-btn" title="返回顶部" onclick="window.scrollTo({top:0,behavior:'smooth'})">⬆️</div>
+</div>
+
+<!-- 微信弹窗 -->
+<div class="wechat-modal" id="wechatModal">
+    <div class="wechat-modal-content">
+        <span class="wechat-modal-close" onclick="closeWechatModal()">&times;</span>
+        <div class="wechat-modal-title">微信咨询</div>
+        <div class="wechat-id-row">
+            <span id="wechatIdText">mfujun</span>
+            <button class="copy-btn" onclick="copyWechatId()">复制</button>
+        </div>
+        <div class="wechat-modal-tip">长按或点击复制微信号，打开微信添加好友</div>
+    </div>
+</div>
+
+<script>
+    // ===== 联系方式配置（部署前务必替换） =====
+    var WECHAT_ID = 'mfujun';
+    var PHONE_NUM = '13764427878';
+
+    // 表单提交 - 推送到飞书群
+    function handleSubmit(e) {
+        e.preventDefault();
+        var form = document.getElementById('leadForm');
+        var data = {};
+        new FormData(form).forEach(function(v, k) { data[k] = v; });
+        var content = '厂房出租.com 新求租需求：\n' +
+            '需求面积：' + (data.area || '未填写') + '\n' +
+            '意向区域：' + (data.region || '未填写') + '\n' +
+            '所属行业：' + (data.industry || '未填写') + '\n' +
+            '特殊要求：' + (data.requirement || '无') + '\n' +
+            '联系人：' + (data.name || '未填写') + '\n' +
+            '联系方式：' + (data.contact || '未填写');
+
+        fetch('https://open.feishu.cn/open-apis/bot/v2/hook/83781f68-fb26-4223-b0e7-e53720107cec', {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+                msg_type: 'text',
+                content: { text: content }
+            })
+        })
+        .then(function(res) { return res.json(); })
+        .then(function(json) {
+            if (json && json.code === 0) {
+                alert('提交成功！我们将在1个工作日内与您联系，请保持电话/微信畅通。');
+                form.reset();
+            } else {
+                alert('提交异常，请直接添加页面微信联系我们！');
+            }
+        })
+        .catch(function() {
+            alert('提交异常，请直接添加页面微信联系我们！');
+        });
+    }
+
+    // 平滑滚动
+    document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+        anchor.addEventListener('click', function(e) {
+            e.preventDefault();
+            var target = document.querySelector(this.getAttribute('href'));
+            if (target) {
+                target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+            }
+        });
+    });
+
+    // ===== 厂房知识文章分页（每页12篇，最新在前） =====
+    (function() {
+        var cards = Array.prototype.slice.call(document.querySelectorAll('#articles .article-card'));
+        var pagination = document.getElementById('pagination');
+        var pageInfo = document.getElementById('pageInfo');
+        if (!cards.length || !pagination) return;
+        var pageSize = 12;
+        var totalPages = Math.ceil(cards.length / pageSize);
+        var current = 1;
+        if (totalPages <= 1) { pagination.style.display = 'none'; pageInfo.style.display = 'none'; return; }
+
+        function showPage(page) {
+            var start = (page - 1) * pageSize;
+            cards.forEach(function(card, i) {
+                // DOM顺序为旧→新，倒序使最新文章排在首页
+                var idx = cards.length - 1 - i;
+                card.style.display = (idx >= start && idx < start + pageSize) ? '' : 'none';
+            });
+            var btns = pagination.querySelectorAll('.page-btn');
+            btns.forEach(function(b, j) {
+                var p = parseInt(b.getAttribute('data-page'), 10);
+                b.classList.toggle('active', p === page);
+                if (b.classList.contains('page-prev')) b.classList.toggle('disabled', page === 1);
+                if (b.classList.contains('page-next')) b.classList.toggle('disabled', page === totalPages);
+            });
+            pageInfo.textContent = '第 ' + page + ' / ' + totalPages + ' 页 · 共 ' + cards.length + ' 篇文章';
+        }
+
+        var html = '<button class="page-btn page-prev" data-page="prev">上一页</button>';
+        for (var p = 1; p <= totalPages; p++) {
+            html += '<button class="page-btn' + (p === 1 ? ' active' : '') + '" data-page="' + p + '">' + p + '</button>';
+        }
+        html += '<button class="page-btn page-next" data-page="next">下一页</button>';
+        pagination.innerHTML = html;
+
+        pagination.addEventListener('click', function(e) {
+            var btn = e.target.closest ? e.target.closest('.page-btn') : null;
+            if (!btn || btn.classList.contains('disabled')) return;
+            var dp = btn.getAttribute('data-page');
+            var target = current;
+            if (dp === 'prev') target = current - 1;
+            else if (dp === 'next') target = current + 1;
+            else target = parseInt(dp, 10);
+            if (target < 1 || target > totalPages || target === current) return;
+            current = target;
+            showPage(current);
+            document.getElementById('articles').scrollIntoView({ behavior: 'smooth', block: 'start' });
+        });
+
+        showPage(1);
+    })();
+
+    // ===== 悬浮客服交互 =====
+    // 微信按钮：弹出微信号
+    document.getElementById('floatWechat').addEventListener('click', function() {
+        document.getElementById('wechatIdText').textContent = WECHAT_ID;
+        document.getElementById('wechatModal').classList.add('show');
+    });
+
+    function closeWechatModal() {
+        document.getElementById('wechatModal').classList.remove('show');
+    }
+
+    // 点击弹窗外部关闭
+    document.getElementById('wechatModal').addEventListener('click', function(e) {
+        if (e.target === this) closeWechatModal();
+    });
+
+    // 复制微信号
+    function copyWechatId() {
+        copyText(WECHAT_ID, '微信号已复制，打开微信粘贴添加');
+    }
+
+    // 电话按钮：手机端拨号，电脑端复制
+    document.getElementById('floatPhone').addEventListener('click', function() {
+        var isMobile = /Android|iPhone|iPad|iPod|Mobile/i.test(navigator.userAgent);
+        if (isMobile) {
+            window.location.href = 'tel:' + PHONE_NUM;
+        } else {
+            copyText(PHONE_NUM, '电话号码已复制：' + PHONE_NUM);
+        }
+    });
+
+    // 通用复制函数
+    function copyText(text, successMsg) {
+        if (navigator.clipboard && navigator.clipboard.writeText) {
+            navigator.clipboard.writeText(text).then(function() {
+                alert(successMsg);
+            }).catch(function() {
+                fallbackCopy(text, successMsg);
+            });
+        } else {
+            fallbackCopy(text, successMsg);
+        }
+    }
+
+    function fallbackCopy(text, successMsg) {
+        var ta = document.createElement('textarea');
+        ta.value = text;
+        ta.style.position = 'fixed';
+        ta.style.opacity = '0';
+        document.body.appendChild(ta);
+        ta.select();
+        try {
+            document.execCommand('copy');
+            alert(successMsg);
+        } catch (e) {
+            alert('复制失败，请手动复制：' + text);
+        }
+        document.body.removeChild(ta);
+    }
+</script>
+
+<!-- 百度统计代码（部署时替换为你的统计ID） -->
+<script>
+    // var _hmt = _hmt || [];
+    // (function() {
+    //     var hm = document.createElement("script");
+    //     hm.src = "https://hm.baidu.com/hm.js?你的百度统计ID";
+    //     var s = document.getElementsByTagName("script")[0];
+    //     s.parentNode.insertBefore(hm, s);
+    // })();
+</script>
+
+<script type="module" src="https://static.cloudflareinsights.com/beacon.min.js/vce701823e78c4301a35b7e07294d87301792088814092" integrity="sha512-UKNk8GbxkABxKcXYuLkO16EleLGUkcvJWtpSNmExE0Too3ZaFAxTscNWEc1OdAv5/BikHawapSCaiD2XCmp+Bw==" data-cf-beacon='{"version":"2024.11.0","token":"89b44dbfc09d4216a792c567024ac356","r":1,"spa":2}' crossorigin="anonymous"></script>
+</body>
+</html>
