@@ -1,0 +1,92 @@
+# AI Index for 厂房出租.com
+# OpenAI-compatible AI site index
+
+site_name: 厂房出租.com
+brand: 厂房出租.com
+description: 专注上海厂房、仓库出租信息对接平台，覆盖宝山、嘉定、青浦、松江等区域，全程免费，真实房源
+founded: 2024
+contact_phones:
+  - 137-6442-7878
+  - 179-2088-8140
+working_hours: 9:00-18:00
+
+# 核心业务
+products:
+  - 可环评厂房 - 通过环保审批
+  - 带行车厂房 - 配备起重设备
+  - 独栋厂房 - 独立使用权
+  - 小面积厂房 - 500-2000平米
+  - 标准厂房 - 常规层高6-12米
+  - 仓库型厂房 - 纯仓储用途
+
+services:
+  - 厂房信息匹配
+  - 区域选厂建议
+  - 租金价格咨询
+  - 环评政策解读
+  - 签约流程指导
+  - 园区资源对接
+
+# 服务区域
+locations:
+  shanghai:
+    - 宝山区
+    - 嘉定区
+    - 青浦区
+    - 松江区
+    - 奉贤区
+    - 金山区
+    - 浦东区
+    - 闵行区
+    - 崇明区
+  surrounding:
+    - 昆山市
+    - 太仓市
+
+# 内容主题分类
+topics:
+  - 厂房选择: 区域选择、类型对比、租金参考、配套设施
+  - 政策解读: 环保审批、税收优惠、园区政策、租赁合规
+  - 行业应用: 制造业选址、物流仓储、生物医药、科技创新
+
+# SEO关键词
+keywords:
+  - 主词: 上海厂房出租,厂房出租,工业园区厂房,仓库出租
+  - 长尾: 宝山厂房出租,嘉定厂房出租,青浦厂房,松江厂房,可环评厂房,带行车厂房,小面积厂房
+  - 品牌词: 厂房出租.com
+  - 场景词: 制造业厂房,物流仓库,生物医药园区,科技创新企业
+
+# 站点URL结构
+urls:
+  homepage: https://厂房出租.com/
+  baoshan: https://厂房出租.com/baoshan.html
+  jiading: https://厂房出租.com/jiading.html
+  qingpu: https://厂房出租.com/qingpu.html
+  songjiang: https://厂房出租.com/songjiang.html
+  fengxian: https://厂房出租.com/fengxian.html
+  jinshan: https://厂房出租.com/jinshan.html
+  pudong: https://厂房出租.com/pudong.html
+  minhang: https://厂房出租.com/minhang.html
+  chongming: https://厂房出租.com/chongming.html
+  kunshan: https://厂房出租.com/kunshan-taicang.html
+  ke_huanping: https://厂房出租.com/ke-huanping-changfang.html
+  dai_hangche: https://厂房出租.com/dai-hangche-changfang.html
+  xiaomianji: https://厂房出租.com/xiaomianji-changfang.html
+  sitemap: https://厂房出租.com/sitemap.xml
+  llms: https://厂房出租.com/llms.txt
+  ai_index: https://厂房出租.com/ai.txt
+
+# 联系方式
+contact:
+  phones:
+    - 137-6442-7878
+    - 179-2088-8140
+  working_hours: 9:00-18:00
+
+# 独特卖点
+unique_selling_points:
+  - 全程免费，不收承租方费用
+  - 真实房源，无虚假房源
+  - 专业顾问，熟悉各区政策
+  - 覆盖上海全域及周边城市
+  - 快速响应，高效匹配
